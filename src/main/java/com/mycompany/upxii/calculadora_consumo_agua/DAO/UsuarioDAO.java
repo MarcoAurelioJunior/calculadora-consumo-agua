@@ -13,7 +13,7 @@ import java.util.logging.Logger;
 public class UsuarioDAO {
     public void cadastrarUsuario(Usuario usuario){
         String sqlCadastro = "INSERT INTO usuario (usuarioLog, nome, email, senha, id_empresa) VALUES (?,?,?,?,?)";
-        
+        System.out.println("Teste");
         PreparedStatement ps = null;
         
         try {
